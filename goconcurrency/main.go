@@ -26,7 +26,7 @@ func fetchData(url string) (string, error) {
 
 func main() {
 	// List of URLs to fetch
-	urls := []string{"https://www.facebook.com", "https://www.google.com", "https://www.github.com", "https://"}
+	urls := []string{"https://www.facebook.com", "https://www.google.com", "https://www.github.com", "https://online.yasar.edu.tr/"}
 
 	// Fetch data sequentially
 	for _, url := range urls {
