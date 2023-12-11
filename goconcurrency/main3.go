@@ -31,7 +31,7 @@ func fetchData(url string, ch chan string, wg *sync.WaitGroup) {
 
 func main() {
 	// List of URLs to fetch
-	urls := []string{"https://www.facebook.com", "https://www.google.com", "https://www.github.com", "https://"}
+	urls := []string{"https://www.facebook.com", "https://www.google.com", "https://www.github.com", "https://online.yasar.edu.tr/"}
 
 	// Create a channel to receive data
 	dataChannel := make(chan string, len(urls))
